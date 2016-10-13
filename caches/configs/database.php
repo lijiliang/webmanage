@@ -4,9 +4,9 @@ return array (
 	'default' => array (
 		'hostname' => 'localhost',
 		'port' => 3306,
-		'database' => 'phpcmsv9',
-		'username' => '',
-		'password' => '',
+		'database' => 'jinsandb',
+		'username' => 'root',
+		'password' => 'root',
 		'tablepre' => 'v9_',
 		'charset' => 'utf8',
 		'type' => 'mysqli',
