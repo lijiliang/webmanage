@@ -19,6 +19,7 @@ var paths = {
 process.on('uncaughtException', function(err) {
     console.log(err);
 })
+var aaa = 'asdfas';
 /*
  * 文件压缩
  */
@@ -27,3 +28,4 @@ gulp.task('move', function() {
     .pipe(uglify())
     .pipe(gulp.dest(paths.scripts.release));
 });
+var b = 'asdfasd'; 
