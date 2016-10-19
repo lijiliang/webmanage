@@ -1,0 +1,67 @@
+/*------------------------------------------------
+@Filename:  index.less
+@Description:   首页
+@Version:   1.0.0(2016-10-19)
+@author:    LJL
+@updatatime:
+------------------------------------------------*/
+/*Variables*/
+@import "./_common/variables.less";
+
+/* 人工咨询 */
+.m-zc{
+    background: url('../img/zcbg.png') no-repeat center center;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    color: #fff;
+    h2{
+        font-size: 28px;
+    }
+    .zc-info{
+        padding: 10px 0;
+        font-size: 16px;
+        span{
+            padding: 0 5px;
+            color: @main-color;
+        }
+    }
+    .zc-btn{
+        padding: 10px 0;
+        a{
+            margin: 0 10px;
+            display: inline-block;
+            border: 1px solid #fff;
+            border-radius: 4px;
+            font-size: 16px;
+            height: 44px;
+            line-height: 44px;
+            padding: 0 20px;
+            text-align: center;
+            color: #fff;
+            &:hover{
+                border: 1px solid @main-color;
+                background: @main-color;
+                color: #fff;
+                transition: all .4s ease-in-out;
+            }
+        }
+    }
+}
+
+/* 版权信息 */
+.m-copyright{
+    text-align: center;
+    padding: 20px 0;
+    .link-help{
+        a{
+            padding: 0 8px;
+            color: #999;
+            font-size: 14px;
+        }
+    }
+    .copyright{
+        padding-top: 10px;
+        color: #999;
+    }
+}
