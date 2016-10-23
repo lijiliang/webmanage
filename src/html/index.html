@@ -10,37 +10,8 @@
     <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
-    <div class="header-container">
-        <div class="container">
-            <a href="" class="logo"><img src="../img/logo.jpg" alt=""></a>
-            <div class="m-nav">
-                <ul class="megamenu skyblue">
-                  <li class="active"><a href="#">首页</a></li>
-                  <li><a href="#">增值电信</a>
-                    <ul class="dropdown">
-                      <li><a href="#">因特网接入（ISP）许可证</a></li>
-                      <li><a href="#">因特网数据中心（IDC）许可证</a></li>
-                      <li><a href="#">呼叫中心许可证</a></li>
-                      <li><a href="">在线数据交易与处理（EDI）许可证</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="#">游戏运营</a>
-                    <ul class="dropdown">
-                      <li><a href="#">因特网接入（ISP）许可证</a></li>
-                      <li><a href="#">因特网数据中心（IDC）许可证</a></li>
-                      <li><a href="#">呼叫中心许可证</a></li>
-                      <li><a href="">在线数据交易与处理（EDI）许可证</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="">互联网资质</a></li>
-                  <li><a href="">服务与支持</a></li>
-                  <li><a href="">客户案例</a></li>
-                  <li class="right"><a href="#">Right</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
+    @@include('./_common/head.html')
+    index
     @@include('./_common/footer.html')
     @@include('./_common/foot.html')
     <script>$(document).ready(function(){$(".megamenu").megamenu();});</script>

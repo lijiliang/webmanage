@@ -22,7 +22,8 @@
 
 // header
 .header-container{
-    padding: 10px 0;
+    padding: 20px 0;
+    box-shadow: 0 0 11px rgba(0, 0, 0, 0.22);
     .logo{
         float: left;
         margin-right: 30px;
@@ -30,10 +31,15 @@
             display: block;
         }
     }
+    .container{
+        padding: 0;
+    }
 }
 .m-nav{
     float: left;
-    width: 830px;
+    width: 740px;
+    padding-top: 14px;
+    font-size: 16px;
 }
 .megamenu {
 	width:100%;
@@ -168,40 +174,5 @@
 }
 
 /*media.less*/
-//@import "./_common/media.less";
-
-@media (max-width: 992px) {
-    .m-service .ser-item{
-        line-height: 80px;
-    }
-}
-@media (min-width: 0) and (max-width: 768px){
-    //咨询
-    .m-zc{
-        h2{
-            font-size: 22px;
-        }
-        .zc-btn{
-            a{
-                padding: 0 10px;
-                font-size: 14px;
-            }
-        }
-    }
-    .m-sale{
-        padding: 20px 0;
-        text-align: center;
-    }
-    .sale-conent{
-        width: 200px;
-        margin: 0 auto;
-    }
-    .m-copyright {
-        text-align: center;
-        padding-top: 0;
-        .link-help{
-            line-height: 2;
-            text-align: center;
-        }
-    }
-}
+@import "./_common/media.less";
+ 

@@ -5,13 +5,62 @@
 @author:    LJL
 @updatatime:
 ------------------------------------------------*/
+@media (max-width: 768px){
+    .m-copyright .link-help {
+        text-align: right;
+    }
+}
+
+@media (max-width: 1199px) {
+    .m-phone{
+        display: none;
+    }
+}
 @media (max-width: 992px) {
     .m-service .ser-item{
         line-height: 80px;
     }
+    // 关于我们
+    .about-container{
+        width: 100%!important;
+        .row{
+            padding-top: 20px!important;
+        }
+        .about-sidebar{
+            display: none;
+        }
+        .about-main{
+            padding: 0 30px!important;
+        }
+    }
 }
-@media (max-width: 768px){
-    .m-copyright .link-help {
-        text-align: right;
+@media (min-width: 0) and (max-width: 768px){
+    //咨询
+    .m-zc{
+        h2{
+            font-size: 22px;
+        }
+        .zc-btn{
+            a{
+                padding: 0 10px;
+                font-size: 14px;
+            }
+        }
+    }
+    .m-sale{
+        padding: 20px 0;
+        text-align: center;
+    }
+    .sale-conent{
+        width: 200px;
+        margin: 0 auto;
+    }
+    .m-copyright {
+        text-align: center;
+        padding-top: 0;
+        .link-help{
+            line-height: 2;
+            text-align: center;
+        }
     }
 }
