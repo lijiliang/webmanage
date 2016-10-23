@@ -288,8 +288,71 @@
             padding: 5px 10px;
             font-size: 14px;
             line-height: 32px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
             // border: 1px solid @border-color;
 
+        }
+    }
+    .m-recommend{
+        margin-top: 25px;
+        h3{
+            font-size: 22px;
+            line-height: 48px;
+            border-bottom:1px solid @border-color;
+            font-weight: normal;
+            color: #333;
+        }
+        ul{
+            padding-top: 10px;
+        }
+        li{
+            line-height: 35px;
+            font-size: 14px;
+            a{
+                color:#2d64b3;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+
+    }
+}
+//详情页 右侧边
+.art-sidebar{
+    .m-remenarticle{
+        h3{
+            padding: 10px 0;
+            font-size: 22px;
+            line-height: 40px;
+        }
+        .hot-item{
+            display: block;
+            height: 98px;
+            padding: 15px 0;
+            border-bottom: 1px solid @border-color;
+            a{
+                display: block;
+                height: 68px;
+                overflow: hidden;
+            }
+            img{
+                float: left;
+                display: block;
+                width: 100px;
+                height: 68px;
+                padding-right: 10px;
+            }
+            span{
+                display: block;
+                float: left;
+                width: 170px;
+                padding-top: 2px;
+                font-size: 14px;
+                line-height: 1.5;
+            }
         }
     }
 }
