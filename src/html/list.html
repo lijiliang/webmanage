@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @@include('./_common/header.html', {
+        "title": "列表页",
+        "keywords": "这是关键字",
+        "description": "这是描述"
+    })
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    @@include('./_common/head.html')
+    <div class="container m-list">
+        <div class="crumbs"><i class="iconfont icon-home"></i><a href="">首页</a><span> &gt; </span><a href="">视频内容演示</a> &gt; <a href="">科技</a> &gt;  正文</div>
+        <div class="row list-container">
+            <div class="col-md-3 m-business">
+                <div class="business-tit">
+                    <h2>资质许可</h2>
+                </div>
+                <div class="business-con">
+                    <ul class="m-accordion">
+                        <li class="accordion-item open">
+                            <div class="busin-link">
+                                <i class="iconfont icon-seal"></i>
+                                <span>电信业务类</span>
+                                <i class="s-arrow"></i>
+                            </div>
+                            <ul class="submenu">
+                                <li ><a href="">信息服务业务(仅互联网)</a></li>
+                                <li class="sactive"><a href="">国内呼叫中心业务</a></li>
+                                <li><a href="">信息服务业务(仅互联网)</a></li>
+                                <li><a href="">信息服务业务(仅互联网)</a></li>
+                                <li><a href="">信息服务业务(仅互联网)</a></li>
+                                <li><a href="">信息服务业务(仅互联网)</a></li>
+                            </ul>
+                        </li>
+                        <li class="accordion-item">
+                            <div class="busin-link">
+                                <i class="iconfont icon-seal"></i>
+                                <span>电信业务类</span>
+                                <i class="s-arrow"></i>
+                            </div>
+                            <ul class="submenu">
+                                <li><a href="">信息服务业务(仅互联网)</a></li>
+                                <li><a href="">信息服务业务(仅互联网)</a></li>
+                                <li><a href="">信息服务业务(仅互联网)</a></li>
+                                <li><a href="">信息服务业务(仅互联网)</a></li>
+                                <li><a href="">信息服务业务(仅互联网)</a></li>
+                                <li><a href="">信息服务业务(仅互联网)</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-9">
+                asdf
+            </div>
+        </div>
+    </div>
+    @@include('./_common/footer.html')
+    @@include('./_common/foot.html')
+    <script>$(document).ready(function(){$(".megamenu").megamenu();});</script>
+</body>
+</html>
